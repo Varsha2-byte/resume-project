@@ -1,43 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
     margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f0d7; /* Cream background */
 }
 
 header {
-    background: #333;
+    background-color: #0d0d0d;
     padding: 20px;
     text-align: center;
-}
-
-header h1 {
     color: white;
 }
 
 nav a {
-    color: #fff;
     margin: 0 15px;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-.content {
+.content-box {
     background: white;
     width: 80%;
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 20px;
     border-radius: 8px;
 }
 
 button {
-    padding: 10px 20px;
-    background: #333;
-    color: white;
+    padding: 8px 15px;
     border: none;
+    background-color: black;
+    color: white;
     border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background: #555;
+#msg {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+    display: none;
 }

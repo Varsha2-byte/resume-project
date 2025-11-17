@@ -1,37 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery.3.6.0.min.js"></script>
-</head>
-<body>
-
-<header>
-    <h1>Welcome to My Website</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="resume.html">Resume</a>
-    </nav>
-</header>
-
 <section class="content">
-    <h2>Hello!</h2>
-    <p>Welcome to my personal website created using HTML, CSS, and jQuery.</p>
+    <div class="content-box">
+        <h2>Bio-Data</h2>
 
-    <button id="btn">Click Me</button>
-    <p id="msg"></p>
+        <p><strong>Name:</strong> Varsha N Patel</p>
+        <p><strong>Date of Birth:</strong> 21-01-2005 </p>
+        <p><strong>Gender:</strong> Female</p>
+        <p><strong>Nationality:</strong> Indian</p>
+        <p><strong>Address:</strong> Patel Sadhana, behind Podar School Arasikere Taluk,Hassan District ,573103</p>
+        <p><strong>Phone:</strong> 8217320609</p>
+        <p><strong>Email:</strong> npatelvarsha@gmail.com</p>
+        <p><strong>Languages Known:</strong> English, Kannada</p>
+    </div>
 </section>
-
-<script>
-    $(document).ready(function () {
-        $("#btn").click(function () {
-            $("#msg").text("Thanks for visiting my website!").fadeIn();
-        });
-    });
-</script>
-
-</body>
-</html>
-
